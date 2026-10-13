@@ -1,17 +1,17 @@
 {
   "dependencies": {
     "dependabotAlerts": true,
-    "dependabotSecurityUpdates": false,
-    "provider": "renovate",
-    "renovatePreset": "github>rjwalters/.github:renovate-config"
+    "dependabotSecurityUpdates": true,
+    "provider": "dependabot"
   },
   "schemaVersion": 1,
   "source": {
     "files": {
-      "policies/default.json": "a3c57fd85df676dc8ee08215c3522c020b2b00d15be3e5f8b87a2fdacd1fd78b"
+      "policies/default.json": "a3c57fd85df676dc8ee08215c3522c020b2b00d15be3e5f8b87a2fdacd1fd78b",
+      "policies/organizations/rjwalters.json": "6b6ec978ad64fb8cbe7af87627bacd2ee2521fb44c5c5de815ef45f99cbdd1af"
     },
     "kind": "github",
     "repository": "rjwalters/repo",
-    "revision": "3464516f4d4514eab8f334376f5e42bc7e752a1d"
+    "revision": "413e0dedbc8e62bab5d5198c2a9476cafb144f2e"
   }
 }
