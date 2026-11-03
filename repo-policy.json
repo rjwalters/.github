@@ -1,5 +1,41 @@
 {
   "dependencies": {
+    "dependabot": {
+      "cooldown": {
+        "routineDays": 14,
+        "securityDays": 1
+      },
+      "groups": {
+        "github-actions": {
+          "patterns": [
+            "*"
+          ],
+          "update-types": [
+            "major",
+            "minor",
+            "patch"
+          ]
+        },
+        "minor-patch": {
+          "patterns": [
+            "*"
+          ],
+          "update-types": [
+            "minor",
+            "patch"
+          ]
+        }
+      },
+      "labels": [
+        "dependencies"
+      ],
+      "schedule": {
+        "day": "monday",
+        "interval": "weekly",
+        "time": "06:00",
+        "timezone": "America/Los_Angeles"
+      }
+    },
     "dependabotAlerts": true,
     "dependabotSecurityUpdates": true,
     "provider": "dependabot"
@@ -7,11 +43,11 @@
   "schemaVersion": 1,
   "source": {
     "files": {
-      "policies/default.json": "a3c57fd85df676dc8ee08215c3522c020b2b00d15be3e5f8b87a2fdacd1fd78b",
+      "policies/default.json": "d67d16cb9d187e555ba43175fee0e533193d4bc9947d3254974760f50a2466f3",
       "policies/organizations/rjwalters.json": "6b6ec978ad64fb8cbe7af87627bacd2ee2521fb44c5c5de815ef45f99cbdd1af"
     },
     "kind": "github",
     "repository": "rjwalters/repo",
-    "revision": "413e0dedbc8e62bab5d5198c2a9476cafb144f2e"
+    "revision": "060963ff74c7f5358bcc4dd673b6e9f031184bad"
   }
 }
